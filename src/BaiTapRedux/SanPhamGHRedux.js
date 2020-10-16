@@ -2,16 +2,17 @@ import React, { Component } from 'react'
 
 export default class SanPhamGHRedux extends Component {
     render() {
+
         return (
             <div>
                 <tr>
-                    <th>1</th>
-                    <th>Iphone</th>
-                    <th><img src="https://picsum.photos/50" /></th>
-                    <th>1</th>
-                    <th>1000</th>
-                    <th>1000</th>
-                    <th><button className="btn btn-danger">Xóa</button></th>
+                    <td>1</td>
+                    <td>Iphone</td>
+                    <td><img /></td>
+                    <td>1</td>
+                    <td>1000</td>
+                    <td>1000</td>
+                    <td><button className="btn btn-danger">Xóa</button></td>
                 </tr>
             </div>
         )

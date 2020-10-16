@@ -24,9 +24,6 @@ export default class BaiTapGioHangRedux extends Component {
                 <div className="row">
                     {this.renderSanPham()}
                 </div>
-                <div className="gioHang">
-                    <GioHangRedux />
-                </div>
             </div>
         )
     }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import BaiTapGameXXac from './BaiTapRedux/BaiTapGameXXac/BaiTapGameXXac';
 import BaiTapGioHangRedux from './BaiTapRedux/BaiTapGioHangRedux';
 // import BaiTapChonMauXe from './BaiTapChonMauXe';
 // import BaiTapGioHang from './Components/BaiTapGioHang';
@@ -24,7 +25,8 @@ function App() {
       {/* <DemoListandKeys /> */}
       {/* <DemoProps /> */}
       {/* <BaiTapGioHang /> */}
-      <BaiTapGioHangRedux />
+      {/* <BaiTapGioHangRedux /> */}
+      <BaiTapGameXXac />
     </div>
   );
 }
